@@ -7,7 +7,7 @@ This project applies the CRISP-DM methodology to analyze healthcare data and sup
 - Structured healthcare dataset
 - Clinical and laboratory variables
 - Binary classification target (disease / no disease)
-- ~70K+ processed records
+- ~400+ processed records
 
 ## Methodology
 - Data Understanding & Exploratory Data Analysis
