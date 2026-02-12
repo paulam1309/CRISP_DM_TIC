@@ -22,10 +22,7 @@ from statsmodels import robust
 
 import scipy.stats as sp
 
-from google.colab import drive
-drive.mount("/content/drive/")
-
-data_disease=pd.read_csv("/content/drive/MyDrive/Colab Notebooks/new_model (1).csv")
+data_disease=pd.read_csv("../data/ckd_dataset.csv")
 print (data_disease)
 
 """Para realizar la proporción entre las categorías de la clase y cada atributo, primero se elige del dataset los atributos en los cuales sus datos son de tipo categóricos (Al, Su, Rbc, Htn)."""
