@@ -22,10 +22,7 @@ from lazypredict.Supervised import LazyClassifier
 from sklearn.datasets import load_breast_cancer
 from sklearn.model_selection import train_test_split
 
-from google.colab import drive
-drive.mount("/content/drive/")
-
-data_disease=pd.read_csv("/content/drive/MyDrive/Colab Notebooks/new_model (1).csv")
+data_disease=pd.read_csv("../data/ckd_dataset.csv")
 print (data_disease)
 
 X= data_disease[['Htn', 'Sg', 'Rbcc', 'Hemo', 'Al']]
